@@ -38,14 +38,17 @@ export const ContactSection = ({ contactDetails }) => {
             work, I&apos;d love to hear about your needs.
           </p>
           <div className="contact-cta__buttons">
-            <button className="reveal-button reveal-button--primary" type="button">
+            <a
+              className="reveal-button reveal-button--primary"
+              href="mailto:yashwanthh235@gmail.com"
+            >
               <span className="reveal-button__label">Start a Conversation</span>
               <span className="reveal-button__value">yashwanthh235@gmail.com</span>
-            </button>
-            <button className="reveal-button reveal-button--secondary" type="button">
+            </a>
+            <a className="reveal-button reveal-button--secondary" href="tel:2013601325">
               <span className="reveal-button__label">Schedule a Call</span>
               <span className="reveal-button__value">201-360-1325</span>
-            </button>
+            </a>
           </div>
         </div>
       </div>

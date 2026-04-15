@@ -317,12 +317,14 @@
   overflow: hidden;
   min-width: 11rem;
   min-height: 3rem;
+  display: block;
   padding: 0;
   color: var(--text);
   background: rgba(255, 252, 246, 0.82);
   border: 1px solid rgba(137, 196, 211, 0.25);
   border-radius: 999px;
-  cursor: default;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 .contact-pill__label,
@@ -779,12 +781,14 @@
   margin-top: 1.5rem;
 }
 
-.contact-cta__buttons button {
+.contact-cta__buttons a {
+  display: block;
   min-height: 3rem;
   border-radius: 1rem;
   border: 1px solid rgba(239, 170, 110, 0.35);
   font-size: 1rem;
   font-weight: 600;
+  text-decoration: none;
 }
 
 .reveal-button {

@@ -1,16 +1,33 @@
-# React + Vite
+# Yashwanth Varre Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React and Vite portfolio site that highlights experience, GitHub work, technical strengths, and contact details in a polished single-page layout.
 
-Currently, two official plugins are available:
+## Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- React 19
+- Vite 8
+- Tailwind CSS 4
+- Three.js
 
-## React Compiler
+## Local Development
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```bash
+npm install
+npm run dev
+```
 
-## Expanding the ESLint configuration
+## Production Build
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+npm run build
+```
+
+## Screenshots
+
+### Desktop
+
+![Desktop portfolio preview](public/github/portfolio-contact-links-home.png)
+
+### Mobile
+
+![Mobile portfolio preview](public/github/portfolio-contact-links-mobile.png)

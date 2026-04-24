@@ -129,54 +129,73 @@ export const contactDetails = [
     title: 'Email',
     description: 'Best for detailed project discussions',
     value: 'yashwanthh235@gmail.com',
+    href: 'mailto:yashwanthh235@gmail.com',
   },
   {
     title: 'Phone',
     description: 'Available for quick calls',
     value: '201-360-1325',
+    href: 'tel:2013601325',
   },
   {
     title: 'LinkedIn',
     description: 'Professional networking and updates',
     value: 'linkedin.com/in/yashwanth-varre-b76254130',
+    href: 'https://linkedin.com/in/yashwanth-varre-b76254130',
   },
 ]
 
 export const githubProfile = {
   handle: 'yashwanthvarre',
   url: 'https://github.com/yashwanthvarre',
-  repoCount: 22,
+  repoCount: 23,
   blurb:
-    'A mix of full-stack applications, TypeScript builds, Java systems, and problem-focused product experiments across frontend, backend, and applied ML work.',
+    'A frontend-heavy portfolio anchored by React, Next.js, TypeScript, and product-oriented experiments, with supporting work in Java APIs and applied language tooling.',
 }
 
 export const githubProjects = [
   {
     name: 'CineArchive',
     language: 'TypeScript',
-    updated: 'Dec 2024',
+    updated: 'Apr 2026',
     url: 'https://github.com/yashwanthvarre/CineArchive',
     summary:
-      'A Next.js movie discovery app focused on archive-style browsing, search-driven exploration, and polished media presentation flows.',
+      'A Next.js movie discovery app focused on structured browsing, richer catalog metadata, and recruiter-friendly frontend architecture.',
+    highlights: ['Next.js', 'TypeScript', 'Filtering UX'],
+    outcome: 'Production build verified after route-structure cleanup and component refactor.',
+  },
+  {
+    name: 'Portfolio',
+    language: 'JavaScript',
+    updated: 'Apr 2026',
+    url: 'https://github.com/yashwanthvarre/Portfolio',
+    summary:
+      'A Vite-based personal portfolio designed around recruiter scanning, GitHub project curation, and concise evidence of frontend impact.',
+    highlights: ['React 19', 'Vite', 'Portfolio UX'],
+    outcome: 'Responsive single-page presentation with live GitHub project framing and recruiter-facing content sections.',
   },
   {
     name: 'LinguisticHasher',
     language: 'TypeScript',
-    updated: 'Jun 2025',
+    updated: 'Apr 2026',
     url: 'https://github.com/yashwanthvarre/LinguisticHasher',
     summary:
-      'A Python and React application that converts Devanagari-script words into numeric hashes using linguistic features and pronunciation-aware logic.',
+      'A Python and React application that converts words into numeric hashes through transliteration, script analysis, and a stylized interactive UI.',
     demoUrl: 'https://linguistic-hasher.vercel.app',
     image: '/github/linguistic-hasher-result.png',
     imageAlt: 'LinguisticHasher result screenshot',
+    highlights: ['FastAPI', 'Next.js', '3D UI'],
+    outcome: 'Frontend test suite exposes two concrete regressions, making this a strong candidate for quality-focused follow-up work.',
   },
   {
-    name: 'Book-Management-System',
-    language: 'JavaScript',
-    updated: 'Oct 2024',
-    url: 'https://github.com/yashwanthvarre/Book-Management-System',
+    name: 'Take-Home-Assessment',
+    language: 'TypeScript',
+    updated: 'Jun 2025',
+    url: 'https://github.com/yashwanthvarre/Take-Home-Assessment',
     summary:
-      'A CRUD-focused React application for managing book records, structured forms, and operational dashboard workflows.',
+      'A compact TypeScript implementation that signals recent hands-on coding work and a stronger modern-stack baseline than older CRUD demos.',
+    highlights: ['TypeScript', 'Recent code', 'Interview-ready'],
+    outcome: 'Useful as supporting evidence for recent TypeScript work, though less portfolio-critical than the top three projects.',
   },
   {
     name: 'Video-Call-We-Application',
@@ -185,21 +204,7 @@ export const githubProjects = [
     url: 'https://github.com/yashwanthvarre/Video-Call-We-Application',
     summary:
       'A browser-based video calling application built around WebRTC, signaling, and real-time communication flows in a Next.js stack.',
-  },
-  {
-    name: 'Employee_Management_System',
-    language: 'Java',
-    updated: 'Nov 2025',
-    url: 'https://github.com/yashwanthvarre/Employee_Management_System',
-    summary:
-      'A Spring Boot REST API for employee CRUD workflows using Spring Data JPA, validation, and clean service-layer organization.',
-  },
-  {
-    name: 'eLearn',
-    language: 'JavaScript',
-    updated: 'Dec 2021',
-    url: 'https://github.com/yashwanthvarre/eLearn',
-    summary:
-      'A React Native learning app with Firebase authentication that organizes educational content into a mobile-first course experience.',
+    highlights: ['WebRTC', 'Real-time UX', 'Browser APIs'],
+    outcome: 'Good domain variety, but it needs stronger documentation and proof to compete with the frontend showcase repos.',
   },
 ]

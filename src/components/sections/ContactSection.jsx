@@ -1,6 +1,6 @@
 export const ContactSection = ({ contactDetails }) => {
   return (
-    <section className="chapter reveal">
+    <section className="chapter reveal" id="contact">
       <div className="section-heading">
         <h2>Let's Connect</h2>
         <p>
@@ -24,7 +24,13 @@ export const ContactSection = ({ contactDetails }) => {
               <div>
                 <h3>{item.title}</h3>
                 <p>{item.description}</p>
-                <span>{item.value}</span>
+                <a
+                  href={item.href}
+                  target={item.title === 'LinkedIn' ? '_blank' : undefined}
+                  rel={item.title === 'LinkedIn' ? 'noreferrer' : undefined}
+                >
+                  {item.value}
+                </a>
               </div>
             </article>
           ))}

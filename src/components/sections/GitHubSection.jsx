@@ -32,6 +32,16 @@ export const GitHubSection = ({ githubProfile, githubProjects }) => {
               <h3>{project.name}</h3>
               <p>{project.summary}</p>
 
+              {project.highlights ? (
+                <div className="chip-list chip-list--dense">
+                  {project.highlights.map((item) => (
+                    <span key={item}>{item}</span>
+                  ))}
+                </div>
+              ) : null}
+
+              {project.outcome ? <p className="github-card__outcome">{project.outcome}</p> : null}
+
               {project.image ? (
                 <div className="github-card__preview">
                   <img src={project.image} alt={project.imageAlt || `${project.name} preview`} />

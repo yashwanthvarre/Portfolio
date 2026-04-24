@@ -294,6 +294,16 @@
   margin-bottom: 1.4rem;
 }
 
+.chip-list--dense {
+  gap: 0.55rem;
+  margin-bottom: 0.9rem;
+}
+
+.chip-list--dense span {
+  padding: 0.38rem 0.72rem;
+  font-size: 0.74rem;
+}
+
 .kicker {
   margin: 0 0 0.85rem;
   color: var(--accent);
@@ -613,6 +623,14 @@
   line-height: 1.5;
 }
 
+.github-card__outcome {
+  margin-top: -0.25rem;
+  padding: 0.8rem 0.9rem;
+  border-radius: 1rem;
+  background: rgba(239, 170, 110, 0.08);
+  border: 1px solid rgba(239, 170, 110, 0.14);
+}
+
 .github-card__preview {
   margin-bottom: 1rem;
   border-radius: 1.15rem;
@@ -765,9 +783,11 @@
   margin: 0 0 0.35rem;
 }
 
-.contact-card span {
+.contact-card span,
+.contact-card a {
   color: #ef9d5c;
   font-weight: 500;
+  text-decoration: none;
 }
 
 .contact-cta {
